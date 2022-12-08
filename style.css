@@ -1,0 +1,334 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    min-width: 400px;
+    height: auto;
+}
+
+body {
+    position: relative;
+    background-color: whitesmoke;
+    background-image: url(images/footer_lodyas_lighter-gray.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    height: 0;
+}
+
+h1, h2 {
+    text-align: left;
+    padding-left: 12vw;
+    color: white;
+}
+
+h1 {
+    padding-top: 5vw;
+    padding-left: 12vw;
+    padding-bottom: 5vw;
+    font-size: 7vw;
+    background-color: rgba( 102, 102, 102, 0.341 );
+}
+
+h2 {
+    font-size: 5vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    background-color: rgba( 102, 102, 102, 0.562 );
+}
+
+ol {
+    display: block;
+    text-align: left;
+    padding-top: 5vw;
+    padding-left: 16vw;
+    padding-bottom: 6vw;
+    color: white;
+    background-color: rgba( 102, 102, 102, 0.853 );
+}
+
+li {
+    display: list-item;
+    padding-bottom: 1vw;
+    font-size: 3vw;
+}
+
+/*#title {
+    box-sizing: border-box;
+    font-family: Verdana;
+    width: 100%;
+    height: 10%;
+    font-size: 40px;
+    padding-top: 12px;
+    letter-spacing: 10px;
+    text-align: center;
+}*/
+
+
+#sharecontainer {
+    margin: 0;
+    padding-right: 2vw;
+    float: right;
+    background-color: darkgray;
+    width: 100%;
+}
+
+/*#navigation {
+    margin-left: 3.9vw;
+    font-family: calibri;
+    font-weight: 600;
+    font-size: 8vw;
+    color: white;
+}*/
+
+#disc {
+    margin: 0;
+    padding: 1vw;
+    padding-left: 3.5vw;
+    height: 10vw;
+    color: white;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.social img{
+    float: right;
+    width: 10vw;
+    height: 10vw;
+    background-color: darkgray;
+}
+
+#title {
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    width: 100%;
+}
+
+#johnpiano {
+    width: 100%;
+    padding: 0;
+    margin-bottom: -1vw;
+}
+
+#discography {
+    
+}
+
+#content1 {
+    text-align: center;
+    color: white;
+    background-color: rgba(68,68,68,0.518067175600709);
+    height: 100%;
+}
+
+.albums {
+    
+}
+
+.square {
+    margin: 0;
+    float: left;
+    width: 50%;
+    min-height: 200px;
+    height: 48vw;
+}
+
+.banner {
+    float: left;
+    width: 100%;
+    height: 25vw;
+    min-height: 104px;
+}
+
+a img {
+    position: relative;
+}
+
+.s1 {
+    background-color: rgba( 255, 255, 255, 0.8);
+}
+
+.s1 img {
+    width: 90%;
+    transform: translate(0, 125%);
+}
+
+.s2 {
+    background-color: rgba( 91, 91, 91, 0.6 );
+}
+
+.s2 img {
+    width: 70%;
+    transform: translate(0, 22%);
+}
+
+.s3 {
+    background-color: rgba( 91, 91, 91, 0.6 );
+}
+
+.s3 img {
+    width: 90%;
+    transform: translate(0, 95%);
+}
+
+.s4 {
+    background-color: rgba(255, 255, 255, 0.631);
+}
+
+.s4 img {
+    width: 90%;
+    transform: translate(0, 50%);
+}
+
+.b1 {
+    background-color: white;
+}
+
+.b1 img {
+    height: 90%;
+    transform: translate(0, 4%);
+}
+
+.b2 {
+    background-color: rgba( 237, 237, 237, 0.609 );
+}
+
+.b2 img {
+    height: 80%;
+    transform: translate(0, 12%);
+}
+
+.space {
+    width: 100%;
+    height: 12vw;
+    background-color: transparent;
+}
+#footer {
+    font-size: 3vw;
+}
+#footer, .credit {
+    width: 100%;
+    bottom: 0;
+    height: auto;
+    text-align: center;
+    /*background-color: rgba( 255, 255, 255, 0.585 );*/
+    color: white;
+    background-color: rgba(68,68,68,0.518067175600709);
+    /*border: solid 2px white;*/
+}
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+/* @media screen and (min-width: 600px) {
+    
+    #title {
+        font-size: 75px;
+    }
+} */
+
+@media screen and (max-width: 400px) {
+
+    html {
+        width: 400px;
+    }
+    body {
+        width: 400px;
+    }
+    .square {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/*@media screen and (min-width: 600px) {
+
+    body {
+        width: 600px;
+        min-height: 700px;
+        left: 50vw;
+        transform: translate(-50%, 0);
+    }
+    #title {
+        width: 600px;
+        font-size: 55px;
+        padding-top: 0;
+        letter-spacing: 12px;
+    }
+    .square {
+        margin: 32px;
+        margin-bottom: 0;
+        margin-right: 0;
+        width: 250px;
+        height: 250px;
+        border-radius: 50px;
+    }
+}*/
+
+/*@media screen and (min-width: 750px) {
+
+    body {
+        width: 750px;
+        min-height: 1000px;
+        left: 50vw;
+        transform: translate(-50%, 0);
+    }
+    
+    #title {
+        width: 750px;
+        margin-top: 0;
+        font-size: 60px;
+        letter-spacing: 18px;
+    }
+    
+    .square {
+        margin: 80px;
+        margin-bottom: 0;
+        margin-right: 0;
+        width: 250px;
+        height: 250px;
+        border-radius: 50px;
+    }
+
+    .banner {
+    margin-left: 80px;
+    margin-top: 80px;
+    margin-bottom: 0;
+    margin-right: 0;
+    width: 580px;
+    height: 100px;
+    border-radius: 50px;
+    }*/
+
+
+/*     .square {
+        width: 373px;
+        height: 373px;
+    } */
+
+}
